@@ -1,3 +1,4 @@
+import Tag from "./tag"
 function ArticleCard({imgsrc,imgalt,title,detail}){
     return(
         <div>
@@ -8,7 +9,7 @@ function ArticleCard({imgsrc,imgalt,title,detail}){
                 
                 <div className="w-[100%] h-[150px] flex gap-3 flex-col  justify-center items-start ">  
                 <div>
-                    tag
+                    <Tag tagname="Cat"/>
                 </div>
                 <h2 className="font-poppins font-semibold text-[20px] leading-[28px] tracking-normal ">
                     {title}
