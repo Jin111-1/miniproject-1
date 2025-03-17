@@ -2,7 +2,8 @@ import Button from "./button";
 
 function Navbar (){
     return(
-        <header className="h-[80px] flex justify-between item-center px-[120px] py-[16px] ">
+        <header className="flex justify-center">
+        <section className="w-[1440px] h-[80px] flex justify-between item-center px-[120px] py-[16px] ">
             <div>
             <svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M9.97328 15.657C11.2053 15.657 12.3004 15.921 13.2586 16.449C14.2364 16.977 14.9991 17.7592 15.5466 18.7956C16.1137 19.8321 16.3973 21.0836 16.3973 22.5503V32.0836H13.0826V23.049C13.0826 21.6018 12.7208 20.497 11.9973 19.7343C11.2737 18.9521 10.2862 18.561 9.03462 18.561C7.78306 18.561 6.78573 18.9521 6.04262 19.7343C5.31906 20.497 4.95728 21.6018 4.95728 23.049V32.0836H1.61328V10.377H4.95728V17.7983C5.52439 17.1138 6.23817 16.5858 7.09862 16.2143C7.97862 15.8427 8.93684 15.657 9.97328 15.657Z" fill="#43403B"/>
@@ -14,6 +15,7 @@ function Navbar (){
             <nav className="flex">
                 <Button/>
             </nav>
+        </section>
         </header>
     )
 }
